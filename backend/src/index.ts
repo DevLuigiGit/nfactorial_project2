@@ -1,8 +1,10 @@
+import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import jobsRouter from "./routes/jobs";
 import companiesRouter from "./routes/companies";
 import aiRouter from "./routes/ai";
+import { isLlmEnabled } from "./ai/service";
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -20,4 +22,7 @@ app.get("/api/health", (_req, res) => {
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
+  console.log(
+    `🤖 AI assistant mode: ${isLlmEnabled() ? "LLM (Ollama)" : "rule-based fallback"}`
+  );
 });
