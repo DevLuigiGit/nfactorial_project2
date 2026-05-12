@@ -11,7 +11,7 @@ async function main() {
       data: {
         name: "Kaspi.kz",
         description: "Крупнейший финтех и маркетплейс Казахстана. Разрабатываем суперапп для 14 млн пользователей.",
-        logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Kaspi.kz_logo.svg/200px-Kaspi.kz_logo.svg.png",
+        logoUrl: null,
         website: "https://kaspi.kz",
         city: "Almaty",
       },
@@ -20,7 +20,7 @@ async function main() {
       data: {
         name: "Kolesa Group",
         description: "Ведущая группа компаний в сфере онлайн-объявлений: Kolesa.kz, Krisha.kz, Market.kz.",
-        logoUrl: "https://i.imgur.com/kolesa.png",
+        logoUrl: null,
         website: "https://kolesa.kz",
         city: "Almaty",
       },

@@ -12,7 +12,7 @@ export function CompanyCard({ company }: { company: Company }) {
             <img
               src={company.logoUrl}
               alt={company.name}
-              className="h-full w-full rounded-lg object-cover"
+              className="h-full w-full rounded-lg object-contain p-1"
             />
           ) : (
             <Building2 className="h-5 w-5" />
