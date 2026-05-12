@@ -63,6 +63,7 @@ export const api = {
       return request<ChatResponse>("/api/ai/chat", {
         method: "POST",
         body: JSON.stringify(body),
+        signal: AbortSignal.timeout(50000),
       });
     },
   },
