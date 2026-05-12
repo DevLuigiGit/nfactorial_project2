@@ -108,7 +108,7 @@ async function callKimi(messages: { role: string; content: string }[]): Promise<
       messages: [{ role: "system", content: SYSTEM_PROMPT }, ...messages],
       stream: false,
     }),
-    signal: AbortSignal.timeout(20000),
+    signal: AbortSignal.timeout(28000),
   });
 
   if (!resp.ok) {
