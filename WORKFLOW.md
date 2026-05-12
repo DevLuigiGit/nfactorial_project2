@@ -8,10 +8,10 @@ JobBoard AI — mini LinkedIn / HH platform with AI job assistant.
 
 | Role | Name | Main Tasks |
 |---|---|---|
-| Frontend Developer | — | UI, pages, filters |
+| Frontend Developer | Yerdaulet | UI, pages, filters |
 | Backend Developer | Aleksej | API, DB, Prisma, AI tools |
-| AI Engineer | — | AI tools, assistant, prompts |
-| QA Engineer & Workflow Master | — | tests, docs, workflow |
+| AI Engineer | Arzhan | AI tools, assistant, prompts |
+| QA Engineer & Workflow Master | Ainur | tests, docs, workflow |
 
 ## MCP & Sub-agents Used
 

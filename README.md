@@ -6,10 +6,10 @@ Mini LinkedIn / HH platform with AI job assistant.
 
 | Role | Name | Branch |
 |---|---|---|
-| Frontend Developer | — | feature/frontend-ui |
+| Frontend Developer | Yerdaulet | feature/frontend-ui |
 | Backend Developer | Aleksej | feature/backend-api |
-| AI Engineer | — | feature/ai-assistant |
-| QA / Workflow | — | feature/qa-workflow |
+| AI Engineer | Arzhan | feature/ai-assistant |
+| QA / Workflow | Ainur | feature/qa-workflow |
 
 ## Features
 
