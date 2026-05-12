@@ -1,0 +1,12 @@
+{
+  "name": "jobboard-ai",
+  "version": "1.0.0",
+  "description": "Mini LinkedIn / HH platform with AI job assistant.",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}
